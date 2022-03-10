@@ -9,7 +9,7 @@ def janken
     puts "ホイ!"
     puts "---------------"
     puts "あなた:#{hand_shape[player_hand]}を出しました\n相手:#{hand_shape[program_hand]}を出しました"
-    puts "---------------"
+    puts "---------------".chomp
 
     if player_hand == program_hand
       puts "あいこで"
